@@ -75,6 +75,7 @@ namespace AES_File
                 MessageBox.Show("File does not exist.");
                 return;
             }
+
             if (String.IsNullOrEmpty(txtPassword.Text))
             {
                 MessageBox.Show("Password empty. Please enter your password");
@@ -87,8 +88,11 @@ namespace AES_File
                 byte[] fileContent = File.ReadAllBytes(txtFilePath.Text);
                 byte[] passwordTmp = Encoding.ASCII.GetBytes(txtPassword.Text);
                 byte[] keys = new byte[fileContent.Length];
+
                 for (int i = 0; i < fileContent.Length; i++)
+                {
                     keys[i] = passwordTmp[i % passwordTmp.Length];
+                }
 
                 // Encrypt
                 byte[] result = new byte[fileContent.Length];
@@ -100,18 +104,25 @@ namespace AES_File
                         byte value = fileContent[i];
                         byte key = keys[i];
                         int valueIndex = -1, keyIndex = -1;
+
                         for (int j = 0; j < 256; j++)
+                        {
                             if (abc[j] == value)
                             {
                                 valueIndex = j;
                                 break;
                             }
+                        }
+                           
                         for (int j = 0; j < 256; j++)
+                        {
                             if (abc[j] == key)
                             {
                                 keyIndex = j;
                                 break;
                             }
+                        }
+
                         result[i] = table[keyIndex, valueIndex];
                     }
                 }
@@ -123,18 +134,25 @@ namespace AES_File
                         byte value = fileContent[i];
                         byte key = keys[i];
                         int valueIndex = -1, keyIndex = -1;
+
                         for (int j = 0; j < 256; j++)
+                        {
                             if (abc[j] == key)
                             {
                                 keyIndex = j;
                                 break;
                             }
+                        }
+                           
                         for (int j = 0; j < 256; j++)
+                        {
                             if (table[keyIndex, j] == value)
                             {
                                 valueIndex = j;
                                 break;
                             }
+                        }
+                         
                         result[i] = abc[valueIndex];
                     }
                 }
@@ -147,6 +165,8 @@ namespace AES_File
                 {
                     File.WriteAllBytes(sd.FileName, result);
                 }
+
+                MessageBox.Show("Action complete!");
             }
             catch
             {
