@@ -1,0 +1,15 @@
+C:\Users\phamb\OneDrive\Máy tính\AES File\AES_File\bin\Debug\netcoreapp3.1\AES_File.exe
+C:\Users\phamb\OneDrive\Máy tính\AES File\AES_File\bin\Debug\netcoreapp3.1\AES_File.deps.json
+C:\Users\phamb\OneDrive\Máy tính\AES File\AES_File\bin\Debug\netcoreapp3.1\AES_File.runtimeconfig.json
+C:\Users\phamb\OneDrive\Máy tính\AES File\AES_File\bin\Debug\netcoreapp3.1\AES_File.runtimeconfig.dev.json
+C:\Users\phamb\OneDrive\Máy tính\AES File\AES_File\bin\Debug\netcoreapp3.1\AES_File.dll
+C:\Users\phamb\OneDrive\Máy tính\AES File\AES_File\bin\Debug\netcoreapp3.1\AES_File.pdb
+C:\Users\phamb\OneDrive\Máy tính\AES File\AES_File\obj\Debug\netcoreapp3.1\AES_File.csprojAssemblyReference.cache
+C:\Users\phamb\OneDrive\Máy tính\AES File\AES_File\obj\Debug\netcoreapp3.1\AES_File.frmAESDemo.resources
+C:\Users\phamb\OneDrive\Máy tính\AES File\AES_File\obj\Debug\netcoreapp3.1\AES_File.csproj.GenerateResource.cache
+C:\Users\phamb\OneDrive\Máy tính\AES File\AES_File\obj\Debug\netcoreapp3.1\AES_File.AssemblyInfoInputs.cache
+C:\Users\phamb\OneDrive\Máy tính\AES File\AES_File\obj\Debug\netcoreapp3.1\AES_File.AssemblyInfo.cs
+C:\Users\phamb\OneDrive\Máy tính\AES File\AES_File\obj\Debug\netcoreapp3.1\AES_File.csproj.CoreCompileInputs.cache
+C:\Users\phamb\OneDrive\Máy tính\AES File\AES_File\obj\Debug\netcoreapp3.1\AES_File.dll
+C:\Users\phamb\OneDrive\Máy tính\AES File\AES_File\obj\Debug\netcoreapp3.1\AES_File.pdb
+C:\Users\phamb\OneDrive\Máy tính\AES File\AES_File\obj\Debug\netcoreapp3.1\AES_File.genruntimeconfig.cache
